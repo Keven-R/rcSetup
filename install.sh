@@ -1,8 +1,8 @@
 #!/bin/bash
 
-rm ~/.vimrc
-rm ~/.bashrc
-rm ~/.bash_aliases
+rm ~/.vimrc > /dev/null
+rm ~/.bashrc > /dev/null
+rm ~/.bash_aliases > /dev/null
 
 cp .vimrc ~/.vimrc
 cp .bashrc ~/.bashrc
